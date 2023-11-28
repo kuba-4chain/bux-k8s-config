@@ -14,10 +14,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - bux-wallet.DOMAIN_NAME_TLD
+        - bux-wallet.4chain.pl
       secretName: bux-wallet-tls
   rules:
-    - host: bux-wallet.DOMAIN_NAME_TLD
+    - host: bux-wallet.4chain.pl
       http:
         paths:
           - path: /api

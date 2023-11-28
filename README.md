@@ -35,7 +35,7 @@ sudo sh setup.sh your-domain.tld your-host-ip your-github-username
 ```
 > This script will replace the domain, ip address, and github user within the configuration files of the repo. Then it will install microk8s and configure it using those modified files.
 
-5. Copy the ssh key which the above script printed after "ACTION YOU MUST TAKE" - add it as the deploy key to your forked config repo from step 1. - the link should be something like: [https://github.com/YOUR_GITHUB_USERNAME/bux-k8s-config/settings/keys](https://github.com/YOUR_GITHUB_USERNAME/bux-k8s-config/settings/keys)
+5. Copy the ssh key which the above script printed after "ACTION YOU MUST TAKE" - add it as the deploy key to your forked config repo from step 1. - the link should be something like: [https://github.com/YOUR_kuba-4chain/bux-k8s-config/settings/keys](https://github.com/YOUR_kuba-4chain/bux-k8s-config/settings/keys)
 
 6. Run the deploy script:
 ```bash

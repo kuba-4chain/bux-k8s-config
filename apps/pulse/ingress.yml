@@ -11,10 +11,10 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - pulse.DOMAIN_NAME_TLD
+        - pulse.4chain.pl
       secretName: pulse-tls
   rules:
-    - host: pulse.DOMAIN_NAME_TLD
+    - host: pulse.4chain.pl
       http:
         paths:
           - path: /
